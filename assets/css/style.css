@@ -189,9 +189,9 @@ nav .check-btn{
         height:400px;
         position: absolute;
         text-align:left;
-        top: 70%;
+        top:100%;
         left: 0;
-        opacity: 0;
+        display:none;
         transition: top 0.5s ease-in;
         -webkit-transition: top 0.5s ease-in;
         -moz-transition: top 0.5s ease-in;
@@ -199,9 +199,7 @@ nav .check-btn{
         -o-transition: top 0.5s ease-in;
 }
     nav input:checked ~ .list{
-        opacity: 1;
-        top:100%
-    
+        display: block;
       }
     nav .list .list-item{
         display:block;
